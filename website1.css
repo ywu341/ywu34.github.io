@@ -34,6 +34,7 @@ p.intro{
     display: inline-block;
     background-color:cornsilk;
     width: 100%;
+    height:50%;
     border: 5px solid green;
     color:brown;
      font-family: 'Open Sans', sans-serif;
