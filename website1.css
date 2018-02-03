@@ -33,7 +33,7 @@ p.intro{
     box-sizing: border-box;
     display: inline-block;
     background-color:cornsilk;
-    
+    height:auto;
     border: 5px solid green;
     color:brown;
      font-family: 'Open Sans', sans-serif;
