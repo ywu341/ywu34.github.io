@@ -45,9 +45,7 @@ img.box{
      padding: 5px;
     margin: 5px;
     border-radius: 50%;
-    width: 20%;
     float:left;
-    max-height: inherit;
 }
 
 ul.nav{
