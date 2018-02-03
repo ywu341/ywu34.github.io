@@ -40,13 +40,12 @@ p.intro{
     font-size: 35px;
 }
 img.box{
-     box-sizing: border-box;
+
      padding: 5px;
     margin: 5px;
     border-radius: 50%;
-    width: 20%;
-    float:left;
-    max-height: inherit;
+    width: 200px;
+    float:left;  
 }
 
 ul.nav{
