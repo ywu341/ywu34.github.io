@@ -1,9 +1,3 @@
-body{
-    background-image: url(https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg);
-    max-width:100%;
-}
-
-
 h1.logo{
     border-style: dotted;
      max-height: 200px;
@@ -40,8 +34,13 @@ p.intro{
     font-size: 35px;
 }
 img.box{
+     box-sizing: border-box;
+     padding: 5px;
+    margin: 5px;
     border-radius: 50%;
+    width: 20%;
     float:left;
+    max-height: inherit;
 }
 
 ul.nav{
