@@ -42,8 +42,6 @@ p.intro{
 }
 img.box{
      box-sizing: border-box;
-     padding: 5px;
-    margin: 5px;
     border-radius: 50%;
     float:left;
 }
