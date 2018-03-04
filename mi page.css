@@ -1,0 +1,314 @@
+* {box-sizing: border-box;}
+body {
+    margin: 0;
+}
+/** TO DEFAULT ALL COLUMN CLASSES TO 100% AND FLOAT THEM LEFT **/
+
+[class*="col-"]  {float: left; width: 100%; margin: 0;}
+
+/** TO CONTAIN A 12-COLUMN SUM IN A SINGLE ROW  **/
+
+.row:after {content: ""; clear: both; display: block;}
+
+/** TO TRIGGER TABLET VIEW AND SET TAB COLUMN WIDTHS**/
+
+.mhide {display: none;}
+.dhide {display: block;}
+
+.intro .introp{
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+header.intro{
+    padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6em;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    font-family:'lato' sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg)
+    
+}
+img{
+         margin: auto;
+         width:10%;
+         float: right;
+     }
+
+h1 > a.dhide{
+
+    padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8em;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    font-family:'lato' sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    
+}
+nav > a.dhide{
+     padding-top: 4em;
+    
+    padding-bottom: 6em;
+    color:white;
+    font-size: 32px;
+   text-align: center;
+    font-family:'lato' sans-serif;
+
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;   
+    color:red;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'lato' sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/b/full-moon-creative-commons-gnuckx-88694223.jpg);
+}
+li.shorter{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPuatxIhDWtoCIzFHFGpdg2XRVK2OnP7CVBDTOs5INQDYPbOL);
+     list-style: none;
+    text-align: center;
+
+}
+
+
+p.pro{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    text-align: center;
+    font-family:'roboto' sans-serif;
+    color: white;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dFR-e4G/defocused-bokeh-gold-christmas-light-on-dark-background-horizontal-pan_4kx43rczx__F0000.png);
+        background-size: contain;
+}
+p.exp{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    text-align: center;
+    font-family:'roboto' sans-serif;
+    color: white;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/dFR-e4G/defocused-bokeh-gold-christmas-light-on-dark-background-horizontal-pan_4kx43rczx__F0000.png);
+        background-size: contain;
+}
+
+ul{
+     margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPuatxIhDWtoCIzFHFGpdg2XRVK2OnP7CVBDTOs5INQDYPbOL);
+
+    
+}
+li{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    
+    
+        width:33.33%;
+    margin:-2px;
+}
+div {
+    padding-top: 3em;
+    display: inline-block;
+    width:25%;
+    margin:-2px;
+    font-size:18px;
+}
+footer.indx{
+    background-image: url(https://thumbs.dreamstime.com/t/green-basil-white-background-horizontal-bunch-61512359.jpg);
+    background-size:cover;
+    padding-bottom:4em;
+    margin-bottom: 0;
+    padding-top: 4em;
+    font-size: 20px;
+}
+
+
+.menu li{
+    border-style:hidden;
+    text-align: center;
+
+}
+
+h1{
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    text-align: left;
+    margin-bottom: 0em;
+    color:white;
+    background-image: url(https://t4.ftcdn.net/jpg/01/90/83/35/240_F_190833558_aS839RH5JGTWsnT2p52qmTewcalyQt1r.jpg);
+    margin-top:0;
+}
+
+.hav{
+     width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    text-align: left;
+    margin-bottom: 0em;
+    color:white;
+    background-image: url(https://t4.ftcdn.net/jpg/01/90/83/35/240_F_190833558_aS839RH5JGTWsnT2p52qmTewcalyQt1r.jpg);
+    margin-top:0;
+}
+
+
+section.intro{
+    
+    font-family: 'Open+Sans',sans-serif;
+    padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0em;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    background-image: url(https://picsbroker.com/wp-content/uploads/2018/02/basket-wallpapers-4.jpg);
+    font-size: 40px;
+        
+}
+section.places > div{
+    width:100%;
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.dhide > img{
+    width: 600px;
+}
+.mhide > img {
+    width: 100%;
+}
+div > p {
+    margin-top:-1px;
+    margin-bottom:-1px;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPuatxIhDWtoCIzFHFGpdg2XRVK2OnP7CVBDTOs5INQDYPbOL);
+
+}
+
+
+    
+
+
+  
+body{
+    background-color:bisque;
+}
+@media screen and (min-width: 400px){
+    body{
+        background-color:azure;
+    }
+    content-position:focus;
+}
+
+@media screen and (min-width: 768px){
+
+.col-t-1 {width: 8.33%;}
+
+.col-t-2 {width: 16.66%;}
+
+.col-t-3 {width: 25%;}
+
+.col-t-4 {width: 33.33%;}
+
+.col-t-5 {width: 41.66%;}
+
+.col-t-6 {width: 50%;}
+
+.col-t-7 {width: 58.33%;}
+
+.col-t-8 {width: 66.66%;}
+
+.col-t-9 {width: 75%;}
+
+.col-t-10 {width: 83.33%;}
+
+.col-t-11 {width: 91.66%;}
+
+.col-t-12 {width: 100%;}
+
+    .mhide {display: none;}
+.dhide {display: block;}
+.introp {background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-size: cover;
+    background-repeat: no-repeat;}
+     nav > ul > li {display:block;
+    }
+    
+
+}
+
+
+
+
+
+/** TO TRIGGER DESKTOP VIEW AND SET DESKTOP COLUMN WIDTHS**/
+
+@media screen and (min-width: 1024px){
+
+.col-d-1 {width: 8.33%;}
+
+.col-d-2 {width: 16.66%;}
+
+.col-d-3 {width: 25%;}
+
+.col-d-4 {width: 33.33%;}
+
+.col-d-5 {width: 41.66%;}
+
+.col-d-6 {width: 50%;}
+
+.col-d-7 {width: 58.33%;}
+
+.col-d-8 {width: 66.66%;}
+
+.col-d-9 {width: 75%;}
+
+.col-d-10 {width: 83.33%;}
+
+.col-d-11 {width: 91.66%;}
+
+.col-d-12 {width: 100%;}
+
+    body {max-width: 90%;
+        margin:auto;}
+    .mhide {display: block;}
+    .dhide {display: none;}
+    .introp {background: none;
+    padding: 5em;}
+    .intro .mhide img {width: 100%;
+        height: auto;}
+    
+    nav ul li {display: inline-block;
+        list-style: none;
+        width: 20%;
+        margin: -2px;}
+    nav ul {padding: 0;
+        margin: 0;}
+    section.places .mhide {max-width: 100%;
+    margin: auto;}
+    
+}
+
